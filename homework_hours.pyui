@@ -1,0 +1,162 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{35, 27}, {322, 47}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instruciton_label",
+          "frame" : "{{245, 307}, {150, 32}}",
+          "uuid" : "B036171A-6B8C-4C26-B41D-9197D7AE0431",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter your homework hours in last five days: ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{428, 39}, {152, 35}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "hours_textfield",
+          "frame" : "{{220, 307}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "5D0BBC06-A580-40BA-A6DD-27CECAA05E71",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{58, 161}, {537, 151}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "hours_textview",
+          "editable" : true,
+          "frame" : "{{220, 223}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "C660F127-DD0E-4821-985D-C62A1A23D764",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{121, 445}, {80, 26}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "result_button_touch_up_inside",
+          "frame" : "{{280, 307}, {80, 32}}",
+          "title" : "MaxMin",
+          "uuid" : "7DE44B74-72EE-4C3A-9D5C-67C4C201D1CB",
+          "class" : "Button",
+          "name" : "maxmin_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{282, 427}, {282, 42}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "maximum_label",
+          "frame" : "{{245, 307}, {150, 32}}",
+          "uuid" : "28F39B55-85FD-4876-8671-44272B9317D4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{282, 488}, {298, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "minimum_label",
+          "frame" : "{{245, 307}, {150, 32}}",
+          "uuid" : "2E7512BF-45AA-4087-A184-85F96F985D0A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{68, 94}, {80, 34}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_button_touch_up_inside",
+          "frame" : "{{280, 307}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "76CFC802-5D9A-4CD7-8EA2-7FA59792E7F5",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{282, 540}, {276, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{245, 307}, {150, 32}}",
+          "uuid" : "096AC4E1-97AC-49C3-A1BD-3192694ED9F5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "result_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {640, 645}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
